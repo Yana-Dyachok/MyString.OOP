@@ -87,6 +87,7 @@ std::ostream& operator<<(std::ostream& os, MyString& v) {
 	return os;
 }
 
+
 MyString& MyString::replace(char a, char b) {
 	MyString Temp;
 	Temp.size = this->size;
